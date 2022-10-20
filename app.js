@@ -42,7 +42,7 @@ products = [
     pname : "Airpods Pro",
     pdesc : "AirPods Pro have been completely re-engineered for richer audio experiences. Touch control. Sweat & water resistance.",
     pprice : 22200 ,
-    pquantity : "8"
+    pquantity : 8
     },
     
     {
@@ -75,6 +75,6 @@ obj.forEach(function(obj){
         };
         arr1.push(selectedObj)
         localStorage.setItem('selectedProduct', JSON.stringify(arr1));
-
+        
     })
 });

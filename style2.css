@@ -1,0 +1,38 @@
+@media screen and (max-width: 480px){
+    #smartphone-details,
+    #accessories-details{
+        flex-direction: column;
+        
+    }
+    .card{
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+    
+    .btn{
+        position: relative;
+        left: 70px;
+    }
+
+    #welcome{
+        height: 100vh;
+    }
+
+    .welcome-brand > h1,h3 {
+        text-align: center;
+    }
+
+    /* Products Page */
+
+    #product-card{
+        padding: 30px;
+        position: relative;
+        left: 60px;
+        background-color: beige;
+    }
+
+    .btn-p {
+        position: relative;
+        left: 1px;
+    }
+}
